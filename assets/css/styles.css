@@ -1,0 +1,15 @@
+/* styles.css */
+/* Creamos una clase propia para las imágenes de las cards */
+.card-img-minecraft {
+    /* 1. Definimos una altura fija para todas. 
+       Prueba cambiar 200px por 250px si las quieres más altas. */
+    height: 200px; 
+    
+    /* 2. Esto hace que la imagen cubra todo el espacio 
+       asignado (los 200px de alto) sin estirarse ni deformarse. 
+       Es como hacer un "zoom" y recortar lo que sobra. */
+    object-fit: contain; 
+    
+    /* Opcional: para asegurar que se centre si se recorta */
+    object-position: center;
+}

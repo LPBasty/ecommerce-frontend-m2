@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MineShop - Tu tienda inexistente</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">🧱 MineShop 🧱</a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto"> <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carrito.html">
+                                🛒 Carrito <span id="contador-carrito" class="badge bg-danger">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5"> <section class="text-center mb-5">
+            <h1>Equípate para la aventura</h1>
+            <p class="lead">Las mejores herramientas para minar y combatir.</p>
+        </section>
+
+        <div class="row g-4" id="contenedor-productos">
+            
+            <div class="col-12 col-md-4">
+                <div class="card h-100 shadow-sm"> <img src="assets\img\espada+diamante.png" class="card-img-top card-img-minecraft" alt="Espada de Diamante">
+                    <div class="card-body">
+                        <h5 class="card-title">Espada de Diamante</h5>
+                        <p class="card-text">7 de daño de ataque. Casi Indestructible.</p>
+                        <p class="h4 text-success">2 diamantes y 1 palo</p>
+                        
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <a href="detalle.html" class="btn btn-outline-primary">Ver detalles</a>
+                            <button class="btn btn-success btn-agregar">Agregar (+)</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="assets\img\pico+hierro.png" class="card-img-top card-img-minecraft" alt="Pico de Hierro">
+                    <div class="card-body">
+                        <h5 class="card-title">Pico de Hierro</h5>
+                        <p class="card-text">Ideal para minar diamantes y oro.</p>
+                        <p class="h4 text-success">3 lingotes de hierro y 1 palo</p>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <a href="detalle.html" class="btn btn-outline-primary">Ver detalles</a>
+                            <button class="btn btn-success btn-agregar">Agregar (+)</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-12 col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="assets\img\manzana+dorada.png" class="card-img-top card-img-minecraft" alt="Manzana Dorada">
+                    <div class="card-body">
+                        <h5 class="card-title">Manzana Dorada</h5>
+                        <p class="card-text">Recupera salud y otorga absorción.</p>
+                        <p class="h4 text-success">8 lingotes de oro y 1 manzana</p>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <a href="detalle.html" class="btn btn-outline-primary">Ver detalles</a>
+                            <button class="btn btn-success btn-agregar">Agregar (+)</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-auto">
+        <p>&copy; 2025 MineShop - Creado por LPBasty</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
